@@ -1,0 +1,35 @@
+# Ignore build and devel directories
+/build/
+/devel/
+
+# Ignore log files
+/log/
+/logs/
+
+# Ignore temporary files
+*.swp
+*.bak
+*.tmp
+
+# Ignore Python cache files
+__pycache__/
+/*.pyc
+
+# Ignore ROS-generated files
+*.bag
+*.pyc
+*.pyo
+
+# Ignore CMake build files
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
+
+# Ignore IDE/editor specific files
+.vscode/
+.idea/
+*.iml
+
+# Ignore other unneeded files
+.DS_Store
