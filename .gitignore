@@ -1,6 +1,11 @@
-# Ignore build and devel directories
+# Ignore build and devel directories for catkin_make
 /build/
 /devel/
+
+/build_isolated/
+/devel_isolated/
+
+/install_isolated/
 
 # Ignore log files
 /log/
